@@ -4,7 +4,8 @@
   "description": "A RESTful todo list API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/brandonsoto/RESTful_todo_list/issues"
   },
-  "homepage": "https://github.com/brandonsoto/RESTful_todo_list#readme"
+  "homepage": "https://github.com/brandonsoto/RESTful_todo_list#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "mongoose": "^4.11.13"
+  }
 }
